@@ -3,6 +3,62 @@
 <head>
   <meta charset="UTF-8">
   <title>Tải File</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(135deg, #89f7fe 0%, #66a6ff 100%);
+      font-family: Arial, sans-serif;
+      color: #fff;
+      animation: fadeIn 1s ease-in-out;
+    }
+
+    h1 {
+      font-size: 2em;
+      margin-bottom: 30px;
+      animation: slideDown 0.8s ease-out;
+    }
+
+    a {
+      display: inline-block;
+      padding: 15px 30px;
+      background-color: #ffffff;
+      color: #007bff;
+      font-weight: bold;
+      border-radius: 10px;
+      text-decoration: none;
+      transition: all 0.3s ease;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+      animation: slideUp 0.8s ease-out;
+    }
+
+    a:hover {
+      background-color: #007bff;
+      color: #fff;
+      transform: scale(1.05);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    @keyframes slideDown {
+      from { transform: translateY(-30px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+
+    @keyframes slideUp {
+      from { transform: translateY(30px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+  </style>
 </head>
 <body>
   <h1>🎉 Tải xuống File</h1>
