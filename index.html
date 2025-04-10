@@ -2,7 +2,7 @@
 <html lang="vi">
 <head>
   <meta charset="UTF-8">
-  <title>Tải File Cực Nhanh</title>
+  <title>Tải Nhiều File</title>
   <style>
     * {
       margin: 0;
@@ -12,7 +12,7 @@
 
     body {
       font-family: 'Segoe UI', sans-serif;
-      background: linear-gradient(135deg, #74ebd5, #9face6);
+      background: linear-gradient(135deg, #fbd3e9, #bb377d);
       height: 100vh;
       display: flex;
       justify-content: center;
@@ -36,23 +36,24 @@
     h1 {
       font-size: 28px;
       color: #333;
-      margin-bottom: 20px;
+      margin-bottom: 30px;
     }
 
     a.download-btn {
       display: inline-block;
       padding: 14px 30px;
       font-size: 16px;
-      background-color: #28a745;
+      background-color: #dc3545;
       color: white;
       text-decoration: none;
       border-radius: 8px;
       box-shadow: 0 5px 12px rgba(0, 0, 0, 0.2);
       transition: background-color 0.3s ease, transform 0.2s ease;
+      margin: 10px;
     }
 
     a.download-btn:hover {
-      background-color: #218838;
+      background-color: #c82333;
       transform: translateY(-2px);
     }
 
@@ -64,8 +65,9 @@
 </head>
 <body>
   <div class="container">
-    <h1>🎉 Nhấn để tải xuống ngay!</h1>
-    <a class="download-btn" href="your-file.zip" download>Tải file</a>
+    <h1>📦 Chọn file bạn muốn tải</h1>
+    <a class="download-btn" href="file1.zip" download>Tải file 1</a>
+    <a class="download-btn" href="file2.zip" download>Tải file 2</a>
   </div>
 </body>
 </html>
