@@ -14,4 +14,4 @@ https://www.python.org/downloads/release/python-3128/
 
 Tải xuống :
 
-https://hngocuyen.github.io/pymeov2-obfuscator/index.html
+https://hngocuyen.github.io/pymeov2-obfuscator/downloads.html
