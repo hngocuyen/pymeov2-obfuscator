@@ -1,4 +1,4 @@
-# pymeov2-obfuscator
+# pymeov2.1-obfuscator
 
 
 Cài đặt python
